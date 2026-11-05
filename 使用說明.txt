@@ -1,0 +1,16 @@
+存錢小鎮｜iPhone 安裝說明
+
+1. 解壓縮本檔，將 index.html、manifest.webmanifest、sw.js、icons 資料夾完整上傳至 GitHub 儲存庫根目錄。
+2. GitHub 儲存庫 → Settings → Pages → Deploy from a branch → main / (root) → Save。
+3. 等待發布後，用 iPhone Safari 開啟 https://你的帳號.github.io/儲存庫名稱/ 。
+4. Safari 分享 → 加入主畫面 → 開啟為網頁 App（若有此選項）→ 加入。
+5. 從手機主畫面的圖示開啟，新增一筆測試消費，關閉重開後確認紀錄還在。
+6. 請在「設定」定期匯出 JSON 備份，儲存到「檔案」或 iCloud 雲碟。
+
+注意：
+- 網站需 HTTPS 才能啟用離線功能；直接點開 HTML 檔案不會有完整 PWA 效果。
+- 首次使用必須連線；離線使用前請先成功開啟一次網站。
+- 目前資料存於裝置瀏覽器 localStorage，不會跨手機或電腦同步，也不保證永不清除。
+- Safari 分頁與主畫面網頁 App 的儲存空間在部分 iOS 版本可能分離，請固定使用主畫面圖示記帳；如需搬移資料，使用匯出／匯入。
+- 網頁程式碼若放在公開儲存庫，其他人能查看；切勿上傳備份 JSON、卡號或密碼。
+- 更新前先匯出備份。若調整網址、路徑或儲存方式，資料可能不會自動轉移。

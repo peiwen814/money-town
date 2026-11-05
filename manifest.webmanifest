@@ -1,0 +1,25 @@
+{
+  "name": "存錢小鎮｜守護獸記帳",
+  "short_name": "存錢小鎮",
+  "description": "8-bit 像素守護獸信用卡預算管理",
+  "lang": "zh-Hant",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#d6e5b0",
+  "theme_color": "#d6e5b0",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
